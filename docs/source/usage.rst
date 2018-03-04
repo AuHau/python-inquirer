@@ -8,6 +8,8 @@ The idea is quite simple:
 
 Each :code:`Question` require some common arguments. So, you just need to know which kind of :code:`Questions` and :code:`Arguments` are available.
 
+If the user will break from the prompt with CTRL+C the prompt render will catch the SIGINT code and return :code:`None`.
+
 
 Question types
 --------------
